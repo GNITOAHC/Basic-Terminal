@@ -19,9 +19,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 ## set up .vimrc
-just move the ```.vimrc```from directory ```setup-terminal-for-newbie``` to your home directory.  
-Then, run ```PlugInstall``` install your every vim-plug.  
-If you want to uninstall any vim-plug, just delete the vim-plug in your```.vimrc``` and run ```PlugClean```.  
+just move the ```.vimrc```from directory ```setup-terminal-MacOS``` to your home directory.  
+Then, run ```:PlugInstall``` install your every vim-plug.  
+If you want to uninstall any vim-plug, just delete the vim-plug in your```.vimrc``` and run ```:PlugClean```.  
 ## vim-plug I recommand
 These are the vim-plug I recommand and plug inside the ```.vimrc```  
 [Tmux yank plugin](https://github.com/tmux-plugins/tmux-yank/tree/master)
@@ -50,6 +50,8 @@ git clone https://github.com/gpakosz/.tmux.git /path/to/oh-my-tmux
 ln -s -f /path/to/oh-my-tmux/.tmux.conf ~/.tmux.conf
 cp /path/to/oh-my-tmux/.tmux.conf.local ~/.tmux.conf.local
 ```
-Second, replace the ```.tmux.conf``` with the one in the directory```set-up-terminal-for-newbie-MacOS```  
+Second, replace the ```.tmux.conf``` with the one in the directory```set-up-terminal-MacOS```  
 Last, replace ```.tmux.conf.local``` using the same way.(This is my customize .tmux.conf.local)  
 You can [customize](https://github.com/gpakosz/.tmux#configuration) your```~/.tmux.conf.local``` copy.  
+## Tmux-plugins
+The only tmux-plugin I use is [tmux-yank](https://github.com/tmux-plugins/tmux-yank).  
