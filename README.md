@@ -37,13 +37,19 @@ As we install tmux already in the earlier section, we are now
 setting up our ```tmux.conf```and ```tmux.comf.local```.  
 [This](https://github.com/gpakosz/.tmux) is the Tmux setting I use.  
 First, run the following from your terminal:
+(Install these in your home directory)
 ```
+cd ~
 git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
+```
+```
+cd ~
 git clone https://github.com/gpakosz/.tmux.git /path/to/oh-my-tmux
 ln -s -f /path/to/oh-my-tmux/.tmux.conf ~/.tmux.conf
 cp /path/to/oh-my-tmux/.tmux.conf.local ~/.tmux.conf.local
 ```
+
 Second, replace the ```.tmux.conf``` with the one in the directory```set-up-terminal-for-newbie-MacOS```  
 Last, replace ```.tmux.conf.local``` using the same way.  
