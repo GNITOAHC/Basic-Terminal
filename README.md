@@ -18,7 +18,7 @@ brew install tmux
 As we install vim already in the earlier section, we are now  
 setting up our vim-plug.  
 ## set up vim-plug
-[Vim-plug](https://github.com/junegunn/vim-plug)
+The entire [Vim-plug](https://github.com/junegunn/vim-plug) introduction.  
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
