@@ -9,7 +9,10 @@ brew install vim
 brew install tmux
 ```
 # Set vim plug
+[Vim-plug](https://github.com/junegunn/vim-plug)
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
+## set up .vimrc
+just move the ```.vimrc```from directory ```setup-terminal-for-newbie``` to your home directory
