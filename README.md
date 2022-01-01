@@ -62,13 +62,14 @@ ln -s -f /path/to/oh-my-tmux/.tmux.conf ~/.tmux.conf
 cp /path/to/oh-my-tmux/.tmux.conf.local ~/.tmux.conf.local
 ```
 Second, replace the ```.tmux.conf``` with the one in the directory```set-up-terminal-MacOS```  
+    
 Last, replace ```.tmux.conf.local``` using the same way.(This is my customize .tmux.conf.local)  
+    
 You can [customize](https://github.com/gpakosz/.tmux#configuration) your```~/.tmux.conf.local``` copy.  
 ## Tmux-plugins
 The only tmux-plugin I use is [tmux-yank](https://github.com/tmux-plugins/tmux-yank).  
 # Customizing zsh
-Move the file ```.zshrc``` to your home directory
-And customize it yourself.
+Move the file ```.zshrc``` to your home directory and customize it yourself.
 ## Recommand websites 
 These are the websites you can refer to  
 [Make Use Of(MUO)](https://www.makeuseof.com/customize-zsh-prompt-macos-terminal/)  
