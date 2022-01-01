@@ -4,6 +4,7 @@ To install home brew on your mac, run the following from your terminal:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 ## brew-install vim and tmux
+To install home vim and tmux, run the following from your terminal:
 ```
 brew install vim
 brew install tmux
@@ -29,6 +30,8 @@ These are the vim-plug I recommand and plug inside the ```.vimrc```
 [Awesome vim color](https://github.com/rafi/awesome-vim-colorschemes)  
 [Nerd tree](https://github.com/scrooloose/nerdtree)  
 [Vim airline](https://github.com/vim-airline/vim-airline)  
+## See more vim-plug
+See more vim-plug [here](https://vimawesome.com).
 # Setup Tmux
 As we install tmux already in the earlier section, we are now  
 setting up our ```tmux.conf```and ```tmux.comf.local```.  
