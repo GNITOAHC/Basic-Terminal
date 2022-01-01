@@ -1,3 +1,8 @@
+# Link
+[Brew]()  
+[Vim]()  
+[Tmux]()  
+[Zsh]()  
 # Brew-install
 To install home brew on your mac, run the following from your terminal:
 ```
