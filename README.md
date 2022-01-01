@@ -1,8 +1,8 @@
 # Link
-[Brew](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#brew-install)  
-[Vim](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#setup-vim)  
-[Tmux](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#setup-tmux)  
-[Zsh](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#customizing-zsh)  
+    [Brew](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#brew-install)  
+    [Vim](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#setup-vim)  
+    [Tmux](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#setup-tmux)  
+    [Zsh](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#customizing-zsh)  
 # Brew-install
 To install home brew on your mac, run the following from your terminal:
 ```
@@ -23,22 +23,22 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 ## set up .vimrc
-Just move the ```.vimrc```from directory ```setup-terminal-MacOS``` to your home directory.  
-Then, run ```:PlugInstall``` install your every vim-plug.  
-If you want to uninstall any vim-plug, just delete the vim-plug in your```.vimrc``` and run ```:PlugClean```.  
+    Just move the ```.vimrc```from directory ```setup-terminal-MacOS``` to your home directory.  
+    Then, run ```:PlugInstall``` install your every vim-plug.  
+    If you want to uninstall any vim-plug, just delete the vim-plug in your```.vimrc``` and run ```:PlugClean```.  
 ### vim-yank-tip
-After highlight the line in vim, press <C-c> to copy line in to Mac system clipboard.  
+After highlight the line in vim, press ```<C-c>```(Control + C) to copy line in to Mac system clipboard.  
     (Press ```v``` or ```V``` in normal mode)  
     Use ```:w !pbcopy``` to copy the whole file,  
     and ```:w !pbpaste``` to paste the line in your system clipboard.  
 ## vim-plug I recommand
 These are the vim-plug I recommand and plug inside the ```.vimrc```  
-[Tmux yank plugin](https://github.com/tmux-plugins/tmux-yank/tree/master)
-[Ctags](https://github.com/universal-ctags/ctags)  
-[Tagbar](https://github.com/preservim/tagbar)  
-[Awesome vim color](https://github.com/rafi/awesome-vim-colorschemes)  
-[Nerd tree](https://github.com/scrooloose/nerdtree)  
-[Vim airline](https://github.com/vim-airline/vim-airline)  
+    [Tmux yank plugin](https://github.com/tmux-plugins/tmux-yank/tree/master)
+    [Ctags](https://github.com/universal-ctags/ctags)  
+    [Tagbar](https://github.com/preservim/tagbar)  
+    [Awesome vim color](https://github.com/rafi/awesome-vim-colorschemes)  
+    [Nerd tree](https://github.com/scrooloose/nerdtree)  
+    [Vim airline](https://github.com/vim-airline/vim-airline)  
 ## See more vim-plug
 See more vim-plug [here](https://vimawesome.com).
 # Setup Tmux
@@ -47,8 +47,7 @@ setting up our ```tmux.conf```and ```tmux.comf.local```.
     
 [This](https://github.com/gpakosz/.tmux) is the Tmux setting I use.  
     
-First, run the following from your terminal:
-(Install these in your home directory)
+First, run the following from your terminal: (Install these in your home directory)
 ```
 cd ~
 git clone https://github.com/gpakosz/.tmux.git
@@ -67,10 +66,10 @@ Last, replace ```.tmux.conf.local``` using the same way.(This is my customize .t
     
 You can [customize](https://github.com/gpakosz/.tmux#configuration) your```~/.tmux.conf.local``` copy.  
 ## Tmux-plugins
-The only tmux-plugin I use is [tmux-yank](https://github.com/tmux-plugins/tmux-yank).  
+    The only tmux-plugin I use is [tmux-yank](https://github.com/tmux-plugins/tmux-yank).  
 # Customizing zsh
-Move the file ```.zshrc``` to your home directory and customize it yourself.
+    Move the file ```.zshrc``` to your home directory and customize it yourself.
 ## Recommand websites 
 These are the websites you can refer to  
-[Make Use Of(MUO)](https://www.makeuseof.com/customize-zsh-prompt-macos-terminal/)  
-[Scripting OS X](https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/)  
+    [Make Use Of(MUO)](https://www.makeuseof.com/customize-zsh-prompt-macos-terminal/)  
+    [Scripting OS X](https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/)  
