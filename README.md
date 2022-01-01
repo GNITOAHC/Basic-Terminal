@@ -1,8 +1,8 @@
 # Link
-[Brew]()  
-[Vim]()  
-[Tmux]()  
-[Zsh]()  
+[Brew](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#brew-install)  
+[Vim](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#setup-vim)  
+[Tmux](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#setup-tmux)  
+[Zsh](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#customizing-zsh)  
 # Brew-install
 To install home brew on your mac, run the following from your terminal:
 ```
@@ -27,6 +27,11 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 just move the ```.vimrc```from directory ```setup-terminal-MacOS``` to your home directory.  
 Then, run ```:PlugInstall``` install your every vim-plug.  
 If you want to uninstall any vim-plug, just delete the vim-plug in your```.vimrc``` and run ```:PlugClean```.  
+### vim-yank-tip
+After highlight the line in vim, press <C-c> to copy line in to Mac system clipboard.  
+    (Press ```v``` or ```V``` in normal mode)  
+    Use ```:w !pbcopy``` to copy the whole file,  
+    and ```:w !pbpaste``` to paste the line in your system clipboard.  
 ## vim-plug I recommand
 These are the vim-plug I recommand and plug inside the ```.vimrc```  
 [Tmux yank plugin](https://github.com/tmux-plugins/tmux-yank/tree/master)
