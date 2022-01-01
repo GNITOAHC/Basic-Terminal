@@ -15,8 +15,7 @@ brew install vim
 brew install tmux
 ```
 # Setup Vim
-As we install vim already in the earlier section, we are now  
-setting up our vim-plug.  
+As we install vim already in the earlier section, we are now setting up our vim-plug.  
 ## set up vim-plug
 The entire [Vim-plug](https://github.com/junegunn/vim-plug) introduction.  
 ```
