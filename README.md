@@ -16,3 +16,5 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 ## set up .vimrc
 just move the ```.vimrc```from directory ```setup-terminal-for-newbie``` to your home directory
+Then, run ```PlugInstall``` install your every vim-plug.
+If you want to uninstall any vim-plug, just delete the vim-plug in your```.vimrc``` and run ```PlugClean```.
