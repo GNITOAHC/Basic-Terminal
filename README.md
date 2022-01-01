@@ -32,4 +32,4 @@ These are the vim-plug I recommand and plug inside the ```.vimrc```
 # Setup Tmux
 As we install tmux already in the earlier section, we are now  
 setting up our ```tmux.conf```and ```tmux.comf.local```.  
-[Tmux setting](https://github.com/gpakosz/.tmux)I use.  
+[Tmux setting](https://github.com/gpakosz/.tmux) I use.  
