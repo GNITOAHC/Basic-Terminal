@@ -22,6 +22,7 @@ just move the ```.vimrc```from directory ```setup-terminal-for-newbie``` to your
 Then, run ```PlugInstall``` install your every vim-plug.  
 If you want to uninstall any vim-plug, just delete the vim-plug in your```.vimrc``` and run ```PlugClean```.  
 ## vim-plug I recommand
+These are the vim-plug I recommand and plug inside the ```.vimrc```  
 [Tmux yank plugin](https://github.com/tmux-plugins/tmux-yank/tree/master)
 [Ctags](https://github.com/universal-ctags/ctags)  
 [Tagbar](https://github.com/preservim/tagbar)  
@@ -31,3 +32,4 @@ If you want to uninstall any vim-plug, just delete the vim-plug in your```.vimrc
 # Setup Tmux
 As we install tmux already in the earlier section, we are now  
 setting up our ```tmux.conf```and ```tmux.comf.local```.  
+[Tmux setting](https://github.com/gpakosz/.tmux)I use.  
