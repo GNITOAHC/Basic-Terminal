@@ -45,7 +45,9 @@ See more vim-plug [here](https://vimawesome.com).
 # Setup Tmux
 As we install tmux already in the earlier section, we are now  
 setting up our ```tmux.conf```and ```tmux.comf.local```.  
+    
 [This](https://github.com/gpakosz/.tmux) is the Tmux setting I use.  
+    
 First, run the following from your terminal:
 (Install these in your home directory)
 ```
