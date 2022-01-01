@@ -55,3 +55,10 @@ Last, replace ```.tmux.conf.local``` using the same way.(This is my customize .t
 You can [customize](https://github.com/gpakosz/.tmux#configuration) your```~/.tmux.conf.local``` copy.  
 ## Tmux-plugins
 The only tmux-plugin I use is [tmux-yank](https://github.com/tmux-plugins/tmux-yank).  
+# Customizing zsh
+Move the file ```.zshrc``` to your home directory
+And customize it yourself.
+## Recommand website 
+These are the websites you can refer to
+[Make Use Of(MUO)](https://www.makeuseof.com/customize-zsh-prompt-macos-terminal/)  
+[Scripting OS X](https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/)  
