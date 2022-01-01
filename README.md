@@ -50,6 +50,6 @@ git clone https://github.com/gpakosz/.tmux.git /path/to/oh-my-tmux
 ln -s -f /path/to/oh-my-tmux/.tmux.conf ~/.tmux.conf
 cp /path/to/oh-my-tmux/.tmux.conf.local ~/.tmux.conf.local
 ```
-
 Second, replace the ```.tmux.conf``` with the one in the directory```set-up-terminal-for-newbie-MacOS```  
-Last, replace ```.tmux.conf.local``` using the same way.  
+Last, replace ```.tmux.conf.local``` using the same way.(This is my customize .tmux.conf.local)  
+You can [customize](https://github.com/gpakosz/.tmux#configuration) your```~/.tmux.conf.local``` copy.  
