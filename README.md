@@ -27,10 +27,8 @@ Just move the ```.vimrc```from directory ```setup-terminal-MacOS``` to your home
 Then, run ```:PlugInstall``` install your every vim-plug.  
 If you want to uninstall any vim-plug, just delete the vim-plug in your```.vimrc``` and run ```:PlugClean```.  
 ### vim-yank-tip
-After highlight the line in vim, press ```<C-c>```(Control + C) to copy line in to Mac system clipboard.  
-    (Press ```v``` or ```V``` in normal mode)  
+After highlight the line in vim(Press ```v``` or ```V``` in normal mode), press ```<C-c>```(Control + C) to copy line in to Mac system clipboard.  
     Use ```:w !pbcopy``` to copy the whole file.  
-    ```:w !pbpaste``` to paste the line in your system clipboard.  
 ## vim-plug I recommand
 These are the vim-plug I recommand and plug inside the ```.vimrc```  
 [Tmux yank plugin](https://github.com/tmux-plugins/tmux-yank/tree/master)
