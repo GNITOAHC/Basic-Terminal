@@ -30,6 +30,7 @@ If you want to uninstall any vim-plug, just delete the vim-plug in your```.vimrc
 After highlight the line in vim(Press ```v``` or ```V``` in normal mode), press ```<C-c>```(Control + C) to copy line in to Mac system clipboard.  
 Use ```:w !pbcopy``` to copy the whole file.  Use ```:r !pbpaste``` to paste after the cursor.  
 Use ```pbpaste > target_file.txt``` to paste whatever is in your clipboard into the target file.  
+Use ```pbcopy < target_file.txt``` to copy the file into the clipboard.  
 ## vim-plug I recommand
 These are the vim-plug I recommand and plug inside the ```.vimrc```  
 [Tmux yank plugin](https://github.com/tmux-plugins/tmux-yank/tree/master)
