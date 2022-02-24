@@ -24,7 +24,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 ## set up .vimrc
 Just move the ```.vimrc```from directory ```setup-terminal-MacOS``` to your home directory.  
-Then, run ```:PlugInstall``` install your every vim-plug.  
+Then, run ```:PlugInstall``` in ```.vimrc``` to install your every vim-plug.  
 If you want to uninstall any vim-plug, just delete the vim-plug in your```.vimrc``` and run ```:PlugClean```.  
 ### vim-yank-tip
 After highlight the line in vim(Press ```v``` or ```V``` in normal mode), press ```<C-c>```(Control + C) to copy line in to Mac system clipboard.  
