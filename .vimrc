@@ -1,6 +1,7 @@
-:set  mouse=a
-:set backspace=2
+:set  mouse=a 		#set the mouse on
+:set backspace=2	#enable baskspace at insert mode
 map <C-c> "+y<CR>
+#press <Control+C> to yank anything to clipboard
 
 call plug#begin('~/.vim/plugged')
 
