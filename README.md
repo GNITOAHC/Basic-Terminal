@@ -68,7 +68,8 @@ You can [customize](https://github.com/gpakosz/.tmux#configuration) your```~/.tm
 ## Tmux-plugins
 The only tmux-plugin I use is [tmux-yank](https://github.com/tmux-plugins/tmux-yank).  
 # Customizing zsh
-Move the file ```.zshrc``` to your home directory and customize it yourself.
+Move the file ```.zshrc``` to your home directory and customize it yourself.  
+Run `nano .zshrc`, then press control+x to exit. Turn on the terminal again then you'll get the new setting.  
 ## Recommand websites 
 These are the websites you can refer to  
 [Make Use Of(MUO)](https://www.makeuseof.com/customize-zsh-prompt-macos-terminal/)  
