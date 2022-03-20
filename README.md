@@ -1,8 +1,8 @@
 # Link
-[Brew](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#brew-install)  
-[Vim](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#setup-vim)  
-[Tmux](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#setup-tmux)  
-[Zsh](https://github.com/GINTOAHC/setup-terminal-MacOS/blob/main/README.md#customizing-zsh)  
+[Brew](https://github.com/GINTOAHC/Beginner-Terminal#brew-install)  
+[Vim](https://github.com/GINTOAHC/Beginner-Terminal#setup-vim)  
+[Tmux](https://github.com/GINTOAHC/Beginner-Terminal/blob/main/README.md#setup-tmux)  
+[Zsh](https://github.com/GINTOAHC/Beginner-Terminal/blob/main/README.md#customizing-zsh)  
 # Brew-install
 To install home brew on your mac, run the following from your terminal:
 ```
