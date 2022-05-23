@@ -4,7 +4,7 @@
 [Tmux](https://github.com/GINTOAHC/Beginner-Terminal/blob/main/README.md#setup-tmux)  
 [Zsh](https://github.com/GINTOAHC/Beginner-Terminal/blob/main/README.md#customizing-zsh)  
 # Brew-install
-To install home brew on your mac, run the following from your terminal:
+To install homebrew on your mac, run the following from your terminal:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
