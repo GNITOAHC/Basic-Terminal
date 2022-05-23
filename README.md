@@ -11,8 +11,7 @@ To install homebrew on your mac, run the following from your terminal:
 ## brew-install vim and tmux
 To install home vim and tmux, run the following from your terminal:
 ```
-brew install vim
-brew install tmux
+brew install vim tmux
 ```
 # Setup Vim
 As we install vim already in the earlier section, we are now setting up our vim-plug.  
