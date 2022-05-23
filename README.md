@@ -22,7 +22,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 ## set up .vimrc
-Just move the ```.vimrc```from directory ```setup-terminal-MacOS``` to your home directory.  
+Just move ```.vimrc```from directory ```setup-terminal-MacOS``` to your home directory.  
 Then, run ```:PlugInstall``` in ```.vimrc``` to install your every vim-plug.  
 If you want to uninstall any vim-plug, just delete the vim-plug in your```.vimrc``` and run ```:PlugClean```.  
 ### vim-yank-tip
