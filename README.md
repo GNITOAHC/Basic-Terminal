@@ -32,7 +32,7 @@ Use ```:w !pbcopy``` to copy the whole file.  Use ```:r !pbpaste``` to paste aft
 Use ```pbpaste > target_file.txt``` to paste whatever is in your clipboard into the target file.  
 Use ```pbcopy < target_file.txt``` to copy the file into the clipboard.  
 ## vim-plug I recommand
-These are the vim-plug I recommand and plug inside the ```.vimrc```  
+These are the vim-plug I recommand and plug inside ```.vimrc```  
 [Tmux yank plugin](https://github.com/tmux-plugins/tmux-yank/tree/master)
 [Ctags](https://github.com/universal-ctags/ctags)  
 [Tagbar](https://github.com/preservim/tagbar)  
