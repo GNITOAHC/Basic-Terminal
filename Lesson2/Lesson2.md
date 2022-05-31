@@ -17,7 +17,7 @@ Add `!` after command to force action.
 Vim has 3 important features: buffer, window, and tab. We will introduce these below.  
 1. Buffer: 
 ```
-:e {target_file}         open file in new buffer
+:e [target_file]         open file in new buffer
 :bn                      for "next buffer"
 :bp                      for "previous buffer"
 :bd                      for "delete buffer"
