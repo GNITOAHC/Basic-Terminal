@@ -18,19 +18,19 @@ Vim has 3 important features: buffer, window, and tab. We will introduce these b
 1. Buffer: 
 ```
 :e {target_file}         open file in new buffer
-:bn                      for "next buffer"
-:bp                      for "previous buffer"
-:bd                      for "delete buffer"
+:bn                      next buffer
+:bp                      previous buffer
+:bd                      delete buffer
 ```
 
 2. Window:
 ```
-:sp                      spliting windows horizontally 
+:sp                      split windows horizontally 
 :vsp                     split windows virtically
-Ctrl-w + h               move to the left window
-Ctrl-w + j               move to the lower window
-Ctrl-w + k               move to the upper window
-Ctrl-w + l               move to the right window
+Ctrl-w + h               move cursor to the left window
+Ctrl-w + j               move cursor to the lower window
+Ctrl-w + k               move cursor to the upper window
+Ctrl-w + l               move cursor to the right window
 ```
 
 3. Tab:
