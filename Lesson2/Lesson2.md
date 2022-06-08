@@ -35,9 +35,30 @@ Ctrl-w + l               move cursor to the right window
 
 3. Tab:
 ```
+:tabe [target_file]      open file in new tab 
+:tabn                    go to next tab
+gt                       go to next tab
+:tabN                    go to previous tab
+gT                       go to previous tab
+:tabr                    go to first tab 
+:tabl                    go to last tab
+:tabs                    view all open tabs
 ```
 
 ## Visual mode
+Press `v`, `V` or `ctrl+v` to enter visual mode.  
+```
+v                       visual (character) mode, use hjkl to move cursor
+V                       visual line mode, use jk to move
+ctrl + v                visual block mode, use hjkl to move cursor
+```
 
+After select target: 
+```
+d                       delete all selected, use `p` in normal mode to paste
+c                       cut all selected, use `p` in normal mode to paste
+y                       yank all selected, use `p` in normal mode to paste
+r [target_character]    replace all selected character to target_character
+```
 
 ## Other tips
