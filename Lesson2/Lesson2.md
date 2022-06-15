@@ -62,3 +62,14 @@ r [target_character]    replace all selected character to target_character
 ```
 
 ## Other tips
+Normal mode:
+```
+gd                      go to definition
+``                      go to the last cursor position before jump
+''                      go to the last cursor position before jump
+/ [target_string]       find target string in file, `n` to go to the next and `N` to go to the previous
+gg                      go to the very front of the file
+G                       go to the very end of the file
+```
+
+For more info, please go to the vim documentation. 
