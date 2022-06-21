@@ -70,6 +70,7 @@ gd                      go to definition
 / [target_string]       find target string in file, `n` to go to the next and `N` to go to the previous
 gg                      go to the very front of the file
 G                       go to the very end of the file
+`<                      go to the last visual selected first charater
+`>                      go to the last visual selected last charater
 ```
-
 For more info, please go to the vim documentation. 
