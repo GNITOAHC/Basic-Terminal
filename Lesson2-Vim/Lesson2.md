@@ -73,4 +73,4 @@ G                       go to the very end of the file
 `<                      go to the last visual selected first charater
 `>                      go to the last visual selected last charater
 ```
-For more info, please go to the vim documentation. 
+For more info, please go to the [vim documentation](https://www.vim.org/docs.php). 

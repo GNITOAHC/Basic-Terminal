@@ -58,8 +58,19 @@ exit			kill pane, if the pane is the only one in that window, kill the window au
 <prefix><Ctrl+arrow>	resize current pane (hold the ctrl key while tapping arrow keys)
 ```
 
+## Command Mode 
+Press `<prefix>:` to enter command mode in tmux. These are some useful command: 
+```
+swap-windows -s [num1] -t [num2] 	swap num1 window with num2 window 
+swap-windows -t -1 			move current window left by 1 position 
+new					start a new session
+new -s [sessionName]			start a new session with assigned name  
+a -t [sessionName]			attach another session, a stands for attach
+```
+
 ## Other tips
 ```
+<prefix>s 		list all session 
 <prefix>d		detach the session, use `tmux a -t` to attach next time
 <prefix>[		enable scroll mode, croll with hjkl just like doing in the vim, press `q` to leave
 <prefix>!		convert current pane into a new window
