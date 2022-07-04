@@ -14,5 +14,5 @@ ex: `brew install vim`
 
 ## Homebrew Cask
 Homebrew Cask installs macOS apps, fonts and plugins and other non-open source software.  
-Run `brew install --cask [caskname]` to install the application you need. 
+Run `brew install --cask [caskname]` to install the application you need.  
 ex: `brew install --cask iterm2`

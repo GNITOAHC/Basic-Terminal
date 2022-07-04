@@ -22,6 +22,7 @@ Vim has 3 important features: buffer, window, and tab. We will introduce these b
 :bp                      previous buffer
 :bd                      delete buffer
 ```
+`vim [target_file1] [target_file2]` will automatically open two file in two buffer.  
 
 2. Window:
 ```
@@ -72,5 +73,11 @@ gg                      go to the very front of the file
 G                       go to the very end of the file
 `<                      go to the last visual selected first charater
 `>                      go to the last visual selected last charater
+```
+Three ways to go to a specific line (under normal mode): 
+```
+:[number]<Cr>
+[number]gg
+[number]G
 ```
 For more info, please go to the [vim documentation](https://www.vim.org/docs.php). 
