@@ -1,4 +1,4 @@
-# Lesson3 Tmux
+# Lesson5 Tmux
 Tmux is an open-source terminal multiplexer for Unix-like operating systems.
 Notable features are :
 - Menus for interactive selection of running sessions, windows or clients

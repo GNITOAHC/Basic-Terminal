@@ -1,4 +1,4 @@
-# Lesson 2 Advanced Vim
+# Lesson 4 Advanced Vim
 To customize your vim, make a file `.vimrc` under your home directory, ans customize it. 
 In `.vimrc` you can map your own key for specific purposes, or set your own ideal setting. We will discuss in the following.  
 

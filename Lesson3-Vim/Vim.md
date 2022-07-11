@@ -1,4 +1,4 @@
-# Lesson2: Vim
+# Lesson3: Vim
 Vim is a free and open-source, screen-based text editor program, it's a improved version of vi.  
 
 ## Install Vim
@@ -73,6 +73,7 @@ gg                      go to the very front of the file
 G                       go to the very end of the file
 `<                      go to the last visual selected first charater
 `>                      go to the last visual selected last charater
+1<C-g>                  View full path to current file
 ```
 Three ways to go to a specific line (under normal mode): 
 ```
@@ -80,4 +81,24 @@ Three ways to go to a specific line (under normal mode):
 [number]gg
 [number]G
 ```
+Increment number: 
+Use Visual Block mode to select numbers, press <C-a> to change numbers to increment numbers ot <C-x> to decrement numbers.  
+Example: 
+```
+<p>0<\p>
+<p>0<\p>
+<p>0<\p>
+<p>0<\p>
+<p>0<\p>
+```
+After using Visual Block mode selecting 0s, press `g<C-a>`, it'll be changed to the following: 
+```
+<p>1<\p>
+<p>2<\p>
+<p>3<\p>
+<p>4<\p>
+<p>5<\p>
+```
+It could also be changed to 10, 20, 30 ... by pressing `10g<C-a>`.  
+
 For more info, please go to the [vim documentation](https://www.vim.org/docs.php). 

@@ -1,4 +1,4 @@
-# Lesson5: Dotfiles
+# Lesson6: Dotfiles
 Dotfiles are called dotfiles couse their file names start with a dot, they are hidden by your system in default, including `.vimrc`, `.zshrc` etc.  
 Dotfiles are configuration files that store your personal preferences. Like `.vimrc` store your vim configuration or `.zshrc` store your z shell configuration.  
 Most of us spend amount of time setting up our own dotfiles, but what if we switch to a new device or machine? 
