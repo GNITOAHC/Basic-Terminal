@@ -56,5 +56,5 @@ ex: `brew install --cask iterm2`
 
 ## Credits
 
-[Homebrew](https://github.com/Homebrew)
+[Homebrew](https://github.com/Homebrew)  
 [Homebrew Cheatsheet](https://devhints.io/homebrew)
