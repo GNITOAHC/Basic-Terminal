@@ -289,6 +289,6 @@ Piping can do more than this, like
 ```
 
 ## Credits 
-[freecodecamp.org](https://www.youtube.com/c/Freecodecamp)
+[freecodecamp.org](https://www.youtube.com/c/Freecodecamp)  
 [terminal-mac-cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet)
 
