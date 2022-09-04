@@ -208,11 +208,13 @@ nnoremap \ x    press `\` to delete a character instead of a line
 # Vim plugins
 
 Vim is a text editor rather than an IDE. This means that almost all functionality is added via plugins. Plugins allow you unleash the full potential of Vim.
-A vim-plugins manager is totally optional, but if you are considering having multiple plugins, a plugin manager could help you __track your plugins and keep your system clean__.  
-There are lots of plugins manager to choose from. Most popular's managers are listed below:  
-1. [vim-plug](https://github.com/junegunn/vim-plug) : A lightweight and powerful manager that is easy to set up and use.  
-2. [pathogen.vim](https://github.com/tpope/vim-pathogen) : One of the oldest plugins, need to update your plugins manually.  
-3. [Vundle](https://github.com/VundleVim/Vundle.vim) : Inspired by pathogen.vim, it's great if are trying out new plugins.  
-Visit there github page for more details, and visit [Vim-awesome](https://vimawesome.com) for more powerful plugins!  
+A vim-plugins manager is totally optional, but if you are considering having multiple plugins, a plugin manager could help you **track your plugins and keep your system clean**.  
+There are lots of plugins manager to choose from. Most popular's managers are listed below:
+
+1. [vim-plug](https://github.com/junegunn/vim-plug) : A lightweight and powerful manager that is easy to set up and use.
+2. [pathogen.vim](https://github.com/tpope/vim-pathogen) : One of the oldest plugins, need to update your plugins manually.
+3. [Vundle](https://github.com/VundleVim/Vundle.vim) : Inspired by pathogen.vim, it's great if are trying out new plugins.
+
+Visit there github page for more details, and visit [Vim-awesome](https://vimawesome.com) for more powerful plugins!
 
 For more info, please visit the [vim documentation](https://www.vim.org/docs.php).
