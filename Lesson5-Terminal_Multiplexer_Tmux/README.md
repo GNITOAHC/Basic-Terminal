@@ -18,7 +18,7 @@ Install with [homebrew](https://brew.sh) by `brew install tmux` or install it [m
 ## Basic concepts of tmux
 
 Tmux is a terminal multiplexer, to toggle or enable tmux, you'll need to create a tmux session. Session holds one or more windows, and windows holds one or more panes.  
-Tmux has a special key called __*prefix key*__, it was default as ctrl-b, while it is common to bind prefix key to C-a(ctrl a).  
+Tmux has a special key called **_prefix key_**, it was default as ctrl-b, while it is common to bind prefix key to C-a(ctrl a).  
 Prefix key can do almost everything in tmux session, we'll introduce them in the following.
 
 ### Session
@@ -158,7 +158,7 @@ set -g @tpm-update  'U'     # <prefix>U to update installed plugins
 set -g @tpm-clean   'C'     # <prefix>C to clean plugins which is not listed
 ```
 
-See more plugins at [awesome-tmux](https://github.com/rothgar/awesome-tmux).  
+See more plugins at [awesome-tmux](https://github.com/rothgar/awesome-tmux).
 
 ## Other tips
 
@@ -169,4 +169,4 @@ See more plugins at [awesome-tmux](https://github.com/rothgar/awesome-tmux).
 <prefix>!		# convert current pane into a new window
 ```
 
-For more info visit [tmux doc](https://man7.org/linux/man-pages/man1/tmux.1.html) or [tmux cheatsheet](https://tmuxcheatsheet.com).  
+For more info visit [tmux doc](https://man7.org/linux/man-pages/man1/tmux.1.html) or [tmux cheatsheet](https://tmuxcheatsheet.com).
