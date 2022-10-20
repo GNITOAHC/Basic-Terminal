@@ -134,7 +134,7 @@ After selecting target, use command in normal mode like `x` or `r` will act as e
     ```
 
 2.  Increment number:
-    Use Visual Block mode to select numbers, press g<C-a> to change numbers to increment numbers or g<C-x> to decrement numbers.  
+    Use Visual Block mode to select numbers, press `g<C-a>` to change numbers to increment numbers or `g<C-x>` to decrement numbers.  
     Example:
 
         ```
@@ -147,7 +147,7 @@ After selecting target, use command in normal mode like `x` or `r` will act as e
         <p>3<\p>
         ```
 
-It could also be changed to 10, 20, 30 ... by pressing `10g<C-a>`.
+It could also be changed to 10, 20, 30 ... by pressing `10g<C-a>`. [`<C-a>` or `<C-x>` only in Neovim (without `g`)] 
 
 # Vim configuration
 
