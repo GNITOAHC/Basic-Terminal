@@ -59,8 +59,18 @@ gg                      go to the very front of the file
 G                       go to the very end of the file
 `<                      go to the last visual selected first charater
 `>                      go to the last visual selected last charater
+f[char]                 go to the character after cursor
+F[char]                 go to the character before cursor
 1<C-g>                  View full path to current file
 ```
+
+Recording: 
+```
+qi                      Start recording 
+q                       Stop recording 
+[number]@i              Execute record 
+```
+
 
 ## Command mode
 
