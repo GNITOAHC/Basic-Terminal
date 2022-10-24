@@ -284,6 +284,7 @@ For instance, `echo "Hello World" | wc -w`, this command take `echo`'s standard 
 ```
 Piping can do more than this, like 
 ```shell 
+> ls | grep [search_pattern]        # Equal to `find [*search_pattern*]`
 > cat test.txt | grep "function"    # Grep "function" keyword in file test.txt
 > cat test.txt | less               # Preview what's inside test.txt but more fitting the current terminal window 
 ```
