@@ -11,7 +11,7 @@ After installing Vim, type `vim [target_file]` in your terminal to edit file.
 
 Normal mode is the default mode after opening vim editor.  
 Press `:` to enter command mode.  
-Press `i`, `I`, `a`, `A`, `o`, `O` to enter insert mode with different cursor positions.
+Press `i`, `I`, `a`, `A`, `o`, `O`, `s`, `S` to enter insert mode with different cursor positions.
 Press `v`, `V`, `ctrl + v` to enter visual mode, visual line mode or visual block mode.
 Press `<esc>` to escape any mode and get back to normal mode.
 
@@ -157,7 +157,7 @@ After selecting target, use command in normal mode like `x` or `r` will act as e
         <p>3<\p>
         ```
 
-It could also be changed to 10, 20, 30 ... by pressing `10g<C-a>`. [`<C-a>` or `<C-x>` only in Neovim (without `g`)] 
+It could also be changed to 10, 20, 30 ... by pressing `10g<C-a>`.  
 
 # Vim configuration
 
